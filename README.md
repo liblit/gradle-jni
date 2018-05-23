@@ -6,7 +6,8 @@ gradle-jni is a utility library for enabling easy to build JNI compatible plugin
 
 ```gradle
 plugins {
-  id 'edu.wpi.first.GradleJni' version '0.1.6'
+  id 'c' // use 'cpp' here instead of 'c' if implementing native methods using C++ instead of C
+  id 'edu.wpi.first.GradleJni' version '0.2.1'
 }
 
 model {
